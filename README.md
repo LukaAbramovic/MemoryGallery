@@ -13,5 +13,5 @@ Link na prototip: https://www.figma.com/file/H2brgi8qb8UkFJnJmmv55k/PROTOTIP-202
 Uloge: 
 Luka Abramović-Objavljivanje i uređivanje fotografija(jos u dogovoru)
 Mia Rovis- Login/proces registracije, postavke(jos u dogovoru)
-Martin Tonjac-[Uredite si ulogu](jos u dogovoru)
+Martin Tonjac-[pregled za goste i izbornik](jos u dogovoru)
 Nikolina Lekaj-[Uredite si ulogu](jos u dogovoru)

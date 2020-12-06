@@ -1,8 +1,8 @@
 Naziv aplikacije-Memory Gallery
 Sastav tima: 1. Luka Abramović
-             2. Nikolina Lekaj
+             2. Martin Tonjac
              3. Mia Rovis
-             4. Martin Tonjac
+             4. Nikolina Lekaj
 Fakultet informatike u Puli (https://fipu.unipu.hr/)
 Kolegij: Programsko inženjerstvo (ntankovic.unipu.hr/pi)
 Mentori: doc. dr. sc. Nikola Tanković (ntankovic.unipu.hr) i Toni Starčić, univ. bacc. inf.

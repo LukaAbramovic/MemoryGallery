@@ -11,3 +11,4 @@ Opis funkcionalnosti: -mogucnost pregleda i objavljivanja slika.
                       -mogucnost ocjenjivanja i komentiranja slika
 Link na prototip: https://www.figma.com/file/H2brgi8qb8UkFJnJmmv55k/PROTOTIP-2020
 Uloge: 
+Luka Abramović-HTML/CSS/Javascript(jos u dogovoru)

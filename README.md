@@ -12,6 +12,6 @@ Opis funkcionalnosti: -mogucnost pregleda i objavljivanja slika.
 Link na prototip: https://www.figma.com/file/H2brgi8qb8UkFJnJmmv55k/PROTOTIP-2020
 Uloge: 
 Luka Abramović-Izbornik,Objavljivanje i uređivanje slika(jos u dogovoru)
-Mia Rovis-HTML/CSS/Javascript(jos u dogovoru)
+Mia Rovis- Login/proces registracije, postavke(jos u dogovoru)
 Martin Tonjac-HTML/CSS/Javascript(jos u dogovoru)
 Nikolina Lekaj-HTML/CSS/Javascript(jos u dogovoru)

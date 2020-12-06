@@ -11,7 +11,7 @@ Opis funkcionalnosti: -mogucnost pregleda i objavljivanja slika.
                       -mogucnost ocjenjivanja i komentiranja slika
 Link na prototip: https://www.figma.com/file/H2brgi8qb8UkFJnJmmv55k/PROTOTIP-2020
 Uloge: 
-Luka Abramović-Izbornik,Objavljivanje i uređivanje slika(jos u dogovoru)
+Luka Abramović-Objavljivanje i uređivanje fotografija(jos u dogovoru)
 Mia Rovis- Login/proces registracije, postavke(jos u dogovoru)
 Martin Tonjac-[Uredite si ulogu](jos u dogovoru)
 Nikolina Lekaj-[Uredite si ulogu](jos u dogovoru)

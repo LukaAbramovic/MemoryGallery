@@ -4,7 +4,7 @@ Sastav tima: 1. Luka Abramović
              3. Mia Rovis
              4. Nikolina Lekaj
 Fakultet informatike u Puli (https://fipu.unipu.hr/)
-Kolegij: Programsko inženjerstvo (ntankovic.unipu.hr/pi)
+Kolegij: Programsko inženjerstvo (https://www.notion.so/Programsko-in-enjerstvo-e353945331df468e8382cdad1e91c4b8)
 Mentori: doc. dr. sc. Nikola Tanković (ntankovic.unipu.hr) i Toni Starčić, univ. bacc. inf.
 Opis funkcionalnosti: -mogucnost pregleda i objavljivanja slika.
                       -kategoriziranje i oznacavanje lokacija slika.

@@ -1,0 +1,13 @@
+body {
+    background: url("pocetna2.jpg")no-repeat center;
+    background-size:cover;
+   
+      
+}
+img {
+position: absolute;
+margin-top: 10%;
+margin-left:30%;
+margin-right:70%;
+
+}

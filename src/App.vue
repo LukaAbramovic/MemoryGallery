@@ -1,4 +1,5 @@
 <template>
+<div id="div-poz"></div>
   <div id="app">
     <div id="nav">
       <router-link to="/">Home</router-link> |
@@ -6,6 +7,7 @@
       <router-link to="/SignUp">Registracija</router-link>
     </div>
     <router-view/>
+  </div>
   </div>
 </template>
 
@@ -17,6 +19,11 @@
   text-align: center;
   color: #2c3e50;
 
+ }
+
+ #div-poz {
+
+ background-image:"pocetna2.jpg";
  }
 
 #nav {

@@ -1,15 +1,18 @@
 <template>
-<div id="div-poz"></div>
+<div style=background:#DDD2C4;>
   <div id="app">
     <div id="nav">
-      <router-link to="/">Home</router-link> |
-      <router-link to="/Login">Prijava</router-link> |
-      <router-link to="/SignUp">Registracija</router-link>
+      <router-link to="/Home">Home</router-link> |
+      <router-link to="/Login">Login</router-link> |
+      <router-link to="/SignUp">Sign Up</router-link> |
+      <router-link to="/AboutUs">About us</router-link> |
+      <router-link to="/FAQs">FAQs</router-link>
     </div>
     <router-view/>
   </div>
   </div>
 </template>
+
 
 <style lang="scss">
 #app {
@@ -21,14 +24,10 @@
 
  }
 
- #div-poz {
-
- background-image:"pocetna2.jpg";
- }
-
 #nav {
   padding: 30px;
-  background-color:#DDD2C4;
+  background-color:#FFF3DA;
+  
 
   a {
     font-weight: bold;

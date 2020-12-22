@@ -26,11 +26,11 @@
  <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
  </div>
  </br>
- <button type="register" class="btn btn-primary">Register</button>
+ <button type="register" class="btn btn-primary" id="button1">Register</button>
  </br></br>
- <button type="Facebook" class="btn btn-primary"><img src="facebook.png" height="30">Sign up with Facebook</button>
+ <button type="Facebook" class="btn btn-primary" id="button1"><img src="facebook.png" height="30">Sign up with Facebook</button>
  </br></br>
- <button type="Google" class="btn btn-primary"><img src="google.png" height="30">Sign up with Google</button>
+ <button type="Google" class="btn btn-primary" id="button1"><img src="google.png" height="30">Sign up with Google</button>
  </form>
  </div>
  <div class="col-sm"></div>
@@ -39,6 +39,5 @@
  </div>
 
 </template>
-<style lang="scss">
 
 

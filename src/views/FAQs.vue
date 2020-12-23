@@ -26,6 +26,8 @@ text-align: center;
 margin-left:15%;
 margin-right:15%;
 }
+#pozadina {
+}
 </style>
 
 

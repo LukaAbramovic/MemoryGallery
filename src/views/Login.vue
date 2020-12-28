@@ -20,9 +20,9 @@
  </br>
  <button type="login" class="btn btn-primary" id="button1">Login</button>
  </br></br>
- <button type="Facebook" class="btn btn-primary" id="button1"><img src="facebook.png" height="30">Login with Facebook</button>
+ <button type="Facebook" class="btn btn-primary" id="button1"><img src="@/assets/facebook.png" height="30">Login with Facebook</button>
   </br></br>
- <button type="Google" class="btn btn-primary" id="button1"><img src="google.png" height="30">Login with Google</button>
+ <button type="Google" class="btn btn-primary" id="button1"><img src="@/assets/google.png" height="30">Login with Google</button>
  </form>
  </div>
  <div class="col-sm"></div>

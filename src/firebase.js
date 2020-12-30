@@ -3,18 +3,12 @@ import "firebase/auth";
 import "firebase/firestore";
 
 var firebaseConfig = {
-    apiKey: "AIzaSyApEAmlK7uIVa45ljmrZOZVvrMJOWOpp_o",
-    authDomain: "memorygallery-fb18d.firebaseapp.com",
-    projectId: "memorygallery-fb18d",
-    storageBucket: "memorygallery-fb18d.appspot.com",
-    messagingSenderId: "725870597138",
-    appId: "1:725870597138:web:7a2fa01b6ddb0c47f1f4cb"
+    apiKey: "AIzaSyBraj7pOMJCO_ee0KHsGx7EXCSiIpD4ROE",
+    authDomain: "memory-gallery-4.firebaseapp.com",
+    projectId: "memory-gallery-4",
+    storageBucket: "memory-gallery-4.appspot.com",
+    messagingSenderId: "118092518721",
+    appId: "1:118092518721:web:7a530d67b0af9f7ae73dc0"
   };
-// Initialize Firebase
-firebase.initializeApp(firebaseConfig);
-
-export default {
-    firebase,
-};
-
-  
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);

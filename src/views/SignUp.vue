@@ -52,18 +52,21 @@ name: "signup",
          password: "",
          };
     },
-        methods: {
+    methods: {
         signup()  {
-                Firebase.auth().createUserWithEmailAndPassword(this.username , this.name, this.email, this.password).then(
+            Firebase.auth().createUserWithEmailAndPassword(this.username , this.name, this.email, this.password).then(
                 function() {
                 console.log("Succesful sign up");
-                }
-                )
+                })
+                .catch(function(error) {
+                console.error("Error",error);
+                });
+            console.log("continue");
                  
-            },
-        },  
-
+        },
+    },  
 };
+
 </script>
 
 

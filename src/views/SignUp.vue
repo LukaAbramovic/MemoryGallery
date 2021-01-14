@@ -37,11 +37,15 @@
  </div>
  </div>
  </div>
+ 
 
 </template>
-import {Firebase} from "@/Firebase";
+
 
 <script>
+
+import {firebase} from "@/firebase";
+
 export default{
 name: "signup",
    data(){
@@ -54,7 +58,7 @@ name: "signup",
     },
     methods: {
         signup()  {
-            Firebase.auth().createUserWithEmailAndPassword(this.username , this.name, this.email, this.password).then(
+            firebase.auth().createUserWithEmailAndPassword(this.email, this.password).then(
                 function() {
                 console.log("Succesful sign up");
                 })
@@ -62,6 +66,7 @@ name: "signup",
                 console.error("Error",error);
                 });
             console.log("continue");
+        
                  
         },
     },  

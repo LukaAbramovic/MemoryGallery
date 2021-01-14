@@ -30,7 +30,8 @@
  </div>
  </div>
 </template>
-import {Firebase} from "@/Firebase";
+
+import {firebase} from "@/firebase";
 
 <style lang="scss">
 #button1 {
@@ -53,7 +54,7 @@ export default {
     methods: {
         login() {
         console.log("login..." + this.username);
-        Firebase.auth().signInWithEmailAndPassword(this.username, this.password)
+        firebase.auth().signInWithEmailAndPassword(this.username, this.password)
             .then((result) => {
                 console.log("Uspjesna prijava", result);
                 this. $router.replace({name: "home" });

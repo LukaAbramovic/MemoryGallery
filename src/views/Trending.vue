@@ -11,7 +11,7 @@
 </template>
 
 <script>
-import Slike from '@/components/Slike.vue'
+import Slike from '@/components/Slike.vue';
 export default {
  name: 'trending',
  components: {

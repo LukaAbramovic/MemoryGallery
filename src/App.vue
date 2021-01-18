@@ -23,7 +23,11 @@
           <router-link to="/AboutUs">About us</router-link> |
         </li>
         <li class="nav-item">
-         <router-link to="/FAQs">FAQs</router-link>
+         <router-link to="/FAQs">FAQs</router-link>  |
+        </li> 
+          </li>
+        <li class="nav-item">
+         <router-link to="/Trending">Trending </router-link>
         </li>  
       </ul>
       <form class="d-flex">

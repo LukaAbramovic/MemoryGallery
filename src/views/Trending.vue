@@ -1,21 +1,30 @@
 <template>
  <div class="row">
  <div class="col-1"></div>
- <div class="col-7">
- <Slike />
+ <div class="col-5">
+ <Rome />
  </div>
- <div class="col-3">
- Ovdje ide sidebar
+ <div class="col-5">
+ <MachuPicchu/>
  </div>
  </div>
 </template>
 
 <script>
-import Slike from '@/components/Slike.vue';
+import Rome from '@/components/Rome.vue';
 export default {
  name: 'trending',
  components: {
- Slike,
+ Rome,
+ },
+};
+
+<script>
+import MachuPicchu from '@/components/MachuPicchu.vue';
+export default {
+ name: 'trending',
+ components: {
+ MachuPicchu,
  },
 };
 

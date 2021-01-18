@@ -15,9 +15,9 @@ import Slike from '@/components/Slike.vue'
 export default {
  name: 'trending',
  components: {
- Slike
- }
-}
+ Slike,
+ },
+};
 
 </script>
 <style lang="scss">

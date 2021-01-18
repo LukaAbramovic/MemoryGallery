@@ -4,8 +4,7 @@
  Featured
  </div>
  <div class="card-body p-0">
- <img class="card-img-top" src="/kamera.png" alt="Čovjek
-sa zlatnim zubima"/>
+ <img class="card-img-top" src="/kamera.png" alt="kamera.png"/>
  </div>
  <div class="card-footer text-muted text-left">
  2 days ago
@@ -16,8 +15,5 @@ sa zlatnim zubima"/>
 <script>
 export default {
  name: 'Slike',
- props: {
- msg: String
- }
-}
+};
 </script>

@@ -4,7 +4,7 @@
  Featured
  </div>
  <div class="card-body p-0">
- <img class="card-img-top" src="/kamera.png" alt="kamera.png"/>
+ <img class="card-img-top" src="/https://picsum.photos/200"/>
  </div>
  <div class="card-footer text-muted text-left">
  2 days ago

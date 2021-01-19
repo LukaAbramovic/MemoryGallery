@@ -46,8 +46,8 @@ import Amsterdam from '@/components/Amsterdam.vue';
 import Dubai from '@/components/Dubai.vue';
 import Venezia from '@/components/Venezia.vue';
 import Iceland from '@/components/Iceland.vue';
-import Mexico from '@/components/Iceland.vue';
-import Norway from '@/components/Iceland.vue';
+import Mexico from '@/components/Mexico.vue';
+import Norway from '@/components/Norway.vue';
 export default {
  name: 'trending',
  components: {

@@ -4,7 +4,7 @@
  MachuPicchu
  </div>
  <div class="card-body p-0">
- <img class="card-img-top" src="@/assets/MachuPicchu.jpg"/>
+ <img class="card-img-top" src="@/assets/MachuPicchu.jpg" height="500"/>
  </div>
  <div class="card-footer text-muted text-left">
  5 hours ago

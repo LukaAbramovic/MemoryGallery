@@ -1,4 +1,5 @@
 <template>
+<div class="container">
  <div class="row">
  <div class="col-1"></div>
  <div class="col-5">
@@ -7,11 +8,33 @@
  <div class="col-5">
  <MachuPicchu/>
  </div>
+ </div>
+ <div class="row">
+ <div class="col-1"></div>
  <div class="col-5">
  <Iceland />
  </div>
  <div class="col-5">
  <Amsterdam />
+ </div>
+ </div>
+ <div class="row">
+ <div class="col-1"></div>
+ <div class="col-5">
+ <Venezia />
+ </div>
+ <div class="col-5">
+ <Dubai />
+ </div>
+ <div class="row">
+ <div class="col-1"></div>
+ <div class="col-5">
+ <Mexico />
+ </div>
+ <div class="col-5">
+ <Norway />
+ </div>
+ </div>
  </div>
  </div>
 </template>
@@ -23,6 +46,8 @@ import Amsterdam from '@/components/Amsterdam.vue';
 import Dubai from '@/components/Dubai.vue';
 import Venezia from '@/components/Venezia.vue';
 import Iceland from '@/components/Iceland.vue';
+import Mexico from '@/components/Iceland.vue';
+import Norway from '@/components/Iceland.vue';
 export default {
  name: 'trending',
  components: {
@@ -32,6 +57,8 @@ export default {
  Dubai,
  Venezia,
  Iceland,
+ Mexico,
+ Norway,
  },
 };
 
@@ -41,6 +68,8 @@ export default {
  .card {
  margin-bottom: 20px;
  }
+
+ 
  
 
 </style>

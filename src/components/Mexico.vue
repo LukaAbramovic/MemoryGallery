@@ -4,7 +4,7 @@
  Mexico
  </div>
  <div class="card-body p-0">
- <img class="card-img-top" src="@/assets/Mexico.jpg" height="500"/>
+ <img class="card-img-top" src="@/assets/Mexico1.jpg" height="500" width="500"/>
  </div>
  <div class="card-footer text-muted text-left">
  1 day ago

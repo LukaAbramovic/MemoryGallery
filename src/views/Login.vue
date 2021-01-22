@@ -8,14 +8,14 @@
  <form>
  <div class="form-group">
  <label for="exampleInputEmail1">Email address</label>
- <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
+ <input type="email" v-model="username" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email" />
  <small id="emailHelp" class="form-text text-muted" >We'll never share your email with anyone else.</small>
  </div>
  </br>
  <div class="form-group">
  <label for="exampleInputPassword1">Password</label>
  </br>
- <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
+ <input type="password" v-model="password" class="form-control" id="exampleInputPassword1" placeholder="Password" />
  </div>
  </br>
  <button type="button" @click="login()" class="btn btn-primary" id="button1">Login</button>
@@ -31,8 +31,6 @@
  </div>
 </template>
 
-import {firebase} from "@/firebase";
-
 <style lang="scss">
 #button1 {
 background-color:#5F5547;}
@@ -42,7 +40,10 @@ background-color:#5F5547;}
 background-color:#5F5547;}
 </style>
 
+
 <script>
+
+import {firebase} from "@/firebase";
 export default {
     name: "login",
     data() {
@@ -57,7 +58,7 @@ export default {
         firebase.auth().signInWithEmailAndPassword(this.username, this.password)
             .then((result) => {
                 console.log("Uspjesna prijava", result);
-                this. $router.replace({name: "home" });
+                this. $router.replace({name: "Trending" });
             })
            .catch(function(e){
                 console.error("greska", e);

@@ -13,11 +13,14 @@
         <li class="nav-item">
           <router-link to="/Home">Home</router-link> |
         </li>
-        <li class="nav-item">
+        <li v-if="!store.currentUser class="nav-item">
           <router-link to="/Login">Login</router-link> |
         </li>
         <li class="nav-item">
           <router-link to="/SignUp">Sign Up</router-link> |
+        </li>
+        <li class="nav-item">
+          <a href="#" @click="logout()" >Logout</a>|
         </li>
         <li class="nav-item">
           <router-link to="/AboutUs">About us</router-link> |
@@ -44,6 +47,38 @@
   </div>
 </template>
 
+<script>
+import store from "@/store";
+import {firebase} from "@/firebase";
+
+firebase.auth(). onAuthStateChanged((user) => {
+if (user) {
+console.log(user.email);
+store.currentUser= user.email;
+} else{
+console.log("no user");
+store.currentUser= null;
+}
+});
+export default{
+       name:"app",
+       data(){
+           return {
+               store,
+           };
+        },
+        methods: {
+        logout() {
+            firebase
+            .auth()
+            .signOut()
+            .then(() => {
+                this.$router.push({name:"login"})
+            });
+        },
+      },
+};
+</script>
 
 <style lang="scss">
 #app {
@@ -53,18 +88,17 @@
   text-align: center;
   color: #2c3e50;
 
- }
  
  #nav2{
- background-color:#FFF3DA;}
-
+ background-color:#FFF3D
+ 
 #nav {
   padding: 30px;
   background-color:#FFF3DA;
   
 
 
-  a {
+  a :
     font-weight: bold;
     font-family:Calibri;
     color: #2c3e50;

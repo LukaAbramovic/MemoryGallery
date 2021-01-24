@@ -13,14 +13,14 @@
         <li class="nav-item">
           <router-link to="/Home">Home</router-link> |
         </li>
-        <li v-if="!store.currentUser class="nav-item">
+        <li v-if="!store.currentUser" class="nav-item">
           <router-link to="/Login">Login</router-link> |
         </li>
-        <li class="nav-item">
+        <li v-if="!store.currentUser" class="nav-item">
           <router-link to="/SignUp">Sign Up</router-link> |
         </li>
-        <li class="nav-item">
-          <a href="#" @click="logout()" >Logout</a>|
+        <li v-if="store.currentUser" class="nav-item">
+          <a href="#" @click.prevent="logout()" >Logout</a> |
         </li>
         <li class="nav-item">
           <router-link to="/AboutUs">About us</router-link> |
@@ -73,7 +73,7 @@ export default{
             .auth()
             .signOut()
             .then(() => {
-                this.$router.push({name:"login"})
+                this.$router.push({name:"Login"})
             });
         },
       },
@@ -90,22 +90,24 @@ export default{
 
  
  #nav2{
- background-color:#FFF3D
+ padding: 30px;
+ background-color:#FFF3DA;
  
-#nav {
-  padding: 30px;
-  background-color:#FFF3DA;
+ 
+ 
   
 
 
-  a :
+ #a: {
     font-weight: bold;
     font-family:Calibri;
-    color: #2c3e50;
-
-    &.router-link-exact-active {
+    color: #2c3e50,
+    
+ &.1router-link-exact-active {
       color: #42b983;
     }
   }
+ }
 }
+
 </style>

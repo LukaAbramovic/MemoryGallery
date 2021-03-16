@@ -10,9 +10,12 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+      <li v-if="store.currentUser" class="nav-item">
+         <router-link to="/MyProfile">MyProfile </router-link> |
+        </li>
         <li class="nav-item">
           <router-link to="/Home">Home</router-link> |
-        </li>
+        </li>  
         <li v-if="!store.currentUser" class="nav-item">
           <router-link to="/Login">Login</router-link> |
         </li>

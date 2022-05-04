@@ -14,4 +14,4 @@ Uloge:
 Luka Abramović-Objavljivanje i uređivanje fotografija(jos u dogovoru)
 Mia Rovis- Login/proces registracije, postavke(jos u dogovoru)
 Martin Tonjac-pregled za goste i izbornik (jos u dogovoru)
-Nikolina Lekaj-[Uredite si ulogu](jos u dogovoru)
+Nikolina Lekaj-[profilna stranica, lokacija](jos u dogovoru)

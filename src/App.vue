@@ -31,7 +31,7 @@
         <li class="nav-item">
          <router-link to="/FAQs">FAQs</router-link>  |
         </li> 
-          </li>
+         
         <li class="nav-item">
          <router-link to="/Trending">Trending </router-link>
         </li>  
@@ -101,7 +101,7 @@ export default{
   
 
 
- #a: {
+ #a {
     font-weight: bold;
     font-family:Calibri;
     color: #2c3e50,
